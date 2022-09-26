@@ -1,0 +1,28 @@
+body{
+    background: hsl(120, 100%, 10%);
+    color: white;
+}
+form{
+    color: white;
+}
+#otherTip, input[type=number] {
+    background-color: hsl(158, 52%, 49%);
+    color: white;
+}
+
+#otherTip, input[type=number]:focus {
+    background-color: hsl(158, 52%, 60%);
+    color: hsl(170, 52%, 25%);
+}
+#billTotal{
+    background-image: url('img/currency-dollar.svg');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+#otherTip, #tax{
+    background-image: url('img/percent.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-origin: content-box;
+}
